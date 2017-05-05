@@ -1,0 +1,60 @@
+body{
+	font-family: 'Roboto Mono', monospace !important;
+}
+.top{
+	height: 100px;
+	border-bottom: black solid 1px;
+}
+.left{
+	padding: 20px;
+	border-bottom: black solid 1px;
+}
+.right{
+	padding: 20px;
+	border-bottom: black solid 1px;
+}
+.file{
+	margin-top: 10px;
+}
+.bottom{
+	text-align: center;
+	padding-top: 20px;
+}
+textarea{
+	resize: none;
+}
+@media (min-width: 768px) {
+
+.container{
+        max-width: 750px;
+}
+.top{
+	border-bottom: black solid 1px;
+	height: 100px;
+}
+.box{
+	border-bottom: black solid 1px;
+	border-right: black solid 1px;
+	border-left: black solid 1px;
+}
+.left{
+	padding: 20px;
+	border-right: black solid 1px;
+	border-bottom: black solid 0px;
+}
+.right{
+	padding: 20px;
+	border-bottom: black solid 0px;
+	
+}
+.bottom{
+	border-bottom: black solid 1px;
+	border-left: black solid 1px;
+	border-right: black solid 1px;
+	text-align: left;
+	padding-top: 13px;
+}
+}
+@media (min-width: 992px) {
+
+}
